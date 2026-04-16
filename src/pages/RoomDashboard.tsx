@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { useGroupStore } from '@/store/useGroupStore';
 import { useAuth } from '@/contexts/AuthContext';
-import { formatCurrency } from '@/lib/finance';
+import { formatCurrency } from '@/lib/utils';
 import { getWalletBalance, calculateMemberFinancialSummary } from '@/lib/financialUtils';
 import { setMonthlyBudget } from '@/services/db';
 import { cn } from '@/lib/utils';

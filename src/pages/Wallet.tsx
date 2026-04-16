@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react';
 import { useGroupStore } from '@/store/useGroupStore';
 import { useAuth } from '@/contexts/AuthContext';
-import { formatCurrency } from '@/lib/finance';
+import { formatCurrency } from '@/lib/utils';
 import { addTransaction } from '@/services/db';
 import { ArrowDownLeft, ArrowUpRight, History, PlusCircle, Wallet as WalletIcon, Loader2, ChevronDown } from 'lucide-react';
 import { cn } from '@/lib/utils';

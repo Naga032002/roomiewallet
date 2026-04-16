@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useGroupStore } from '@/store/useGroupStore';
 import { useNavigate } from 'react-router-dom';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import { formatCurrency } from '@/lib/finance';
+import { formatCurrency } from '@/lib/utils';
 import { ArrowDownLeft, ArrowUpRight, Receipt, Users, Wallet as WalletIcon } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { fetchGroupMembersDisplayNames } from '@/services/db';

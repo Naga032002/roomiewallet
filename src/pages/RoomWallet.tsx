@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useGroupStore } from '@/store/useGroupStore';
 import { useAuth } from '@/contexts/AuthContext';
-import { formatCurrency } from '@/lib/finance';
+import { formatCurrency } from '@/lib/utils';
 import { getWalletBalance, calculateMemberFinancialSummary } from '@/lib/financialUtils';
 import { addTransaction } from '@/services/db';
 import { Wallet, PlusCircle, Loader2, TrendingUp, CheckCircle } from 'lucide-react';

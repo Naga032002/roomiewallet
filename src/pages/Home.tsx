@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import { useAuth } from '@/contexts/AuthContext';
 import { useGroupStore } from '@/store/useGroupStore';
 import { Plus, Hash, ChevronRight, Wallet, TrendingDown, TrendingUp, Loader2, Users, Home as HomeIcon } from 'lucide-react';
-import { formatCurrency } from '@/lib/finance';
+import { formatCurrency } from '@/lib/utils';
 import { getWalletBalance, calculateMemberFinancialSummary } from '@/lib/financialUtils';
 import { cn } from '@/lib/utils';
 import { Group } from '@/types';

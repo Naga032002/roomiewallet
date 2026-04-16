@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useGroupStore } from '@/store/useGroupStore';
 import { useAuth } from '@/contexts/AuthContext';
-import { formatCurrency } from '@/lib/finance';
+import { formatCurrency } from '@/lib/utils';
 import { fetchGroupMembersDisplayNames } from '@/services/db';
 import { cn } from '@/lib/utils';
 import { Receipt, TrendingUp, Users, Wallet, ArrowDownLeft } from 'lucide-react';

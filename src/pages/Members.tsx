@@ -4,7 +4,7 @@ import { useGroupStore } from '@/store/useGroupStore';
 import { useAuth } from '@/contexts/AuthContext';
 import { fetchGroupMembersDisplayNames, removeMember } from '@/services/db';
 import { calculateMemberFinancialSummary } from '@/lib/financialUtils';
-import { formatCurrency } from '@/lib/finance';
+import { formatCurrency } from '@/lib/utils';
 import { Crown, ChevronRight, CheckCircle, AlertCircle, UserRound, Loader2, UserMinus } from 'lucide-react';
 import { cn } from '@/lib/utils';
 

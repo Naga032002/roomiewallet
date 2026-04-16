@@ -4,7 +4,7 @@ import { useGroupStore } from '@/store/useGroupStore';
 import { useAuth } from '@/contexts/AuthContext';
 import { fetchGroupMembersDisplayNames } from '@/services/db';
 import { calculateMemberFinancialSummary } from '@/lib/financialUtils';
-import { formatCurrency } from '@/lib/finance';
+import { formatCurrency } from '@/lib/utils';
 import { ArrowLeft, Crown, CheckCircle, TrendingDown, TrendingUp, ArrowDownLeft, ArrowUpRight, Receipt, Users, Wallet, UserRound } from 'lucide-react';
 import { cn } from '@/lib/utils';
 

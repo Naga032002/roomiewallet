@@ -2,7 +2,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { useGroupStore } from '@/store/useGroupStore';
 import { useAuth } from '@/contexts/AuthContext';
 import { softDeleteTransaction, fetchGroupMembersDisplayNames } from '@/services/db';
-import { formatCurrency } from '@/lib/finance';
+import { formatCurrency } from '@/lib/utils';
 import { ArrowLeft, Trash2, ArrowDownLeft, Users, Receipt, Wallet as WalletIcon, Crown, ArrowUpRight, CheckCircle, AlertCircle } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
